@@ -1,0 +1,77 @@
+.chartContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--dark-them-color);
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.userDetails {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.avatar {
+  height: 3rem;
+}
+.ChartMessages {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  overflow: auto;
+  /* height: 80%; */
+  /* border: 2px solid yellowgreen; */
+  margin-bottom: 90px;
+}
+.ChartMessages::-webkit-scrollbar {
+  display: none;
+}
+.messageCard {
+  display: flex;
+  flex-direction: row;
+}
+.messageCard > p {
+  color: #131324;
+  margin: 10px;
+  background-color: lightgrey;
+  /* max-width: 60%; */
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  overflow-wrap: break-word;
+  display: inline-block;
+  font-weight: 600;
+  box-shadow: 0 0 10px gray;
+  align-items: flex-start;
+}
+.user {
+  justify-content: flex-end;
+}
+.user > p {
+  background-color: lavender;
+}
+.other {
+  justify-content: flex-start;
+}
+.other > p {
+  background-color: darkgray;
+}
+
+.scrollContainer::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.ChartMessages::-webkit-scrollbar {
+  display: none;
+}
+.chartContainer::-webkit-scrollbar {
+  display: none;
+}

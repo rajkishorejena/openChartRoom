@@ -1,0 +1,17 @@
+.logoutButton {
+  padding: 8px;
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 2px whitesmoke;
+}
+.logoutButton:hover {
+  box-shadow: 0 0 7px whitesmoke;
+}
+.logoutIcon {
+  color: rgb(19, 44, 95);
+  font-size: 16px;
+  font-weight: 500;
+}

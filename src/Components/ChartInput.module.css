@@ -1,0 +1,69 @@
+.chartInput {
+  /* width: 100%; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* background-color: #080420;
+    padding: 0.5rem 2rem; */
+  position: absolute;
+  bottom: 0px;
+  width: calc(100% - 36px);
+  padding: 18px;
+  /* background-color: rgb(240, 240, 240); */
+}
+.form {
+  /* display: flex;
+    justify-content: space-between;
+    gap: 5px; */
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #3b2a50;
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px white;
+}
+.form > input {
+  /* flex-grow: 3;
+    height: 30px; */
+  height: 40px;
+  width: calc(100% - 122px);
+  background-color: white;
+  border: 1px solid white;
+  padding: 3px 18px;
+  outline: none;
+  font-size: 15px;
+}
+.form > input:focus {
+  outline: none;
+}
+.button {
+  height: 42px;
+  background-color: white;
+  border: 1px solid white;
+  padding: 0px 18px;
+  cursor: pointer;
+}
+.sendButton {
+  top: 1px;
+  position: relative;
+  font-size: 22px;
+  transform: rotate(-30deg);
+}
+@media (max-width: 480px) {
+  .form > input {
+    padding: 0px 10px;
+    width: calc(100% - 100px);
+  }
+}
+/* resize: none;
+  height: auto;
+  overflow: hidden;
+  min-height: 50px;
+  max-height: 150px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px; */
+/* Input */
